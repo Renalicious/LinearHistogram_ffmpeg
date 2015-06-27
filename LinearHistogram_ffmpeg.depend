@@ -1,0 +1,987 @@
+# depslib dependency file v1.0
+1435431758 source:d:\d_backup\backup\code stuff\linearhistogram_ffmpeg\main.cpp
+	<fstream>
+	<iostream>
+	"histogram.hpp"
+	"ffwrapper.hpp"
+	"pbm_io.h"
+	<stdlib.h>
+
+1406840359 .hpp"
+
+1406858941 d:\d_backup\backup\code stuff\linearhistogram_ffmpeg\include\libavcodec\avcodec.h
+	<errno.h>
+	"libavutil/samplefmt.h"
+	"libavutil/attributes.h"
+	"libavutil/avutil.h"
+	"libavutil/buffer.h"
+	"libavutil/cpu.h"
+	"libavutil/channel_layout.h"
+	"libavutil/dict.h"
+	"libavutil/frame.h"
+	"libavutil/log.h"
+	"libavutil/pixfmt.h"
+	"libavutil/rational.h"
+	"version.h"
+	"libavutil/mem.h"
+	"old_codec_ids.h"
+
+1406858941 _ids.h"
+
+1406858941 d:\d_backup\backup\code stuff\linearhistogram_ffmpeg\include\libavutil\samplefmt.h
+	<stdint.h>
+	"avutil.h"
+	"attributes.h"
+
+1406858941 s.h"
+
+1406858941 d:\d_backup\backup\code stuff\linearhistogram_ffmpeg\include\libavutil\avutil.h
+	"common.h"
+	"error.h"
+	"rational.h"
+	"version.h"
+	"macros.h"
+	"mathematics.h"
+	"log.h"
+	"pixfmt.h"
+
+1406836820 
+
+1406858941 d:\d_backup\backup\code stuff\linearhistogram_ffmpeg\include\libavutil\common.h
+	<errno.h>
+	<inttypes.h>
+	<limits.h>
+	<math.h>
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"attributes.h"
+	"version.h"
+	"libavutil/avconfig.h"
+	"config.h"
+	"intmath.h"
+	"common.h"
+	"mem.h"
+	"internal.h"
+
+1406858941 h"
+
+1406858941 d:\d_backup\backup\code stuff\linearhistogram_ffmpeg\include\libavutil\attributes.h
+
+1406858941 d:\d_backup\backup\code stuff\linearhistogram_ffmpeg\include\libavutil\version.h
+	"macros.h"
+
+1406858941 d:\d_backup\backup\code stuff\linearhistogram_ffmpeg\include\libavutil\macros.h
+
+1406858941 d:\d_backup\backup\code stuff\linearhistogram_ffmpeg\include\libavutil\avconfig.h
+
+1406858941 d:\d_backup\backup\code stuff\linearhistogram_ffmpeg\include\libavutil\mem.h
+	<limits.h>
+	<stdint.h>
+	"attributes.h"
+	"error.h"
+	"avutil.h"
+
+1406858941 d:\d_backup\backup\code stuff\linearhistogram_ffmpeg\include\libavutil\error.h
+	<errno.h>
+	<stddef.h>
+
+1406858941 d:\d_backup\backup\code stuff\linearhistogram_ffmpeg\include\libavutil\rational.h
+	<stdint.h>
+	<limits.h>
+	"attributes.h"
+
+1406858941 d:\d_backup\backup\code stuff\linearhistogram_ffmpeg\include\libavutil\mathematics.h
+	<stdint.h>
+	<math.h>
+	"attributes.h"
+	"rational.h"
+	"intfloat.h"
+
+1406858941 d:\d_backup\backup\code stuff\linearhistogram_ffmpeg\include\libavutil\intfloat.h
+	<stdint.h>
+	"attributes.h"
+
+1406858941 d:\d_backup\backup\code stuff\linearhistogram_ffmpeg\include\libavutil\log.h
+	<stdarg.h>
+	"avutil.h"
+	"attributes.h"
+
+1406858941 d:\d_backup\backup\code stuff\linearhistogram_ffmpeg\include\libavutil\pixfmt.h
+	"libavutil/avconfig.h"
+	"version.h"
+	"old_pix_fmts.h"
+
+1406858941 mts.h"
+
+1406858941 d:\d_backup\backup\code stuff\linearhistogram_ffmpeg\include\libavutil\old_pix_fmts.h
+
+1406858941 d:\d_backup\backup\code stuff\linearhistogram_ffmpeg\include\libavutil\buffer.h
+	<stdint.h>
+
+1406858941 d:\d_backup\backup\code stuff\linearhistogram_ffmpeg\include\libavutil\cpu.h
+	"attributes.h"
+
+1406858941 d:\d_backup\backup\code stuff\linearhistogram_ffmpeg\include\libavutil\channel_layout.h
+	<stdint.h>
+
+1406858941 d:\d_backup\backup\code stuff\linearhistogram_ffmpeg\include\libavutil\dict.h
+	"version.h"
+
+1406858941 "
+
+1406858941 d:\d_backup\backup\code stuff\linearhistogram_ffmpeg\include\libavutil\frame.h
+	<stdint.h>
+	"avutil.h"
+	"buffer.h"
+	"dict.h"
+	"rational.h"
+	"samplefmt.h"
+	"pixfmt.h"
+	"version.h"
+
+1406858941 d:\d_backup\backup\code stuff\linearhistogram_ffmpeg\include\libavcodec\version.h
+	"libavutil/version.h"
+
+1406858941 /version.h"
+
+1406858941 d:\d_backup\backup\code stuff\linearhistogram_ffmpeg\include\libavcodec\old_codec_ids.h
+
+1402107401 /common.h"
+
+1435432480 source:d:\d_backup\backup\code stuff\linearhistogram_ffmpeg\src\histogram.cpp
+	"histogram.hpp"
+	<string>
+	<iostream>
+	<cmath>
+	"memory.h"
+
+1402124935 d:\d_backup\backup\code stuff\linearhistogram_ffmpeg\include\histogram.h
+
+1406858941 d:\d_backup\backup\code stuff\linearhistogram_ffmpeg\include\libavformat\avformat.h
+	<time.h>
+	<stdio.h>
+	"libavcodec/avcodec.h"
+	"libavutil/dict.h"
+	"libavutil/log.h"
+	"avio.h"
+	"libavformat/version.h"
+
+1406858941 at/version.h"
+
+1406858941 d:\d_backup\backup\code stuff\linearhistogram_ffmpeg\include\libavformat\avio.h
+	<stdint.h>
+	"libavutil/common.h"
+	"libavutil/dict.h"
+	"libavutil/log.h"
+	"libavformat/version.h"
+
+1406858941 d:\d_backup\backup\code stuff\linearhistogram_ffmpeg\include\libavformat\version.h
+	"libavutil/version.h"
+
+1406858941 d:\d_backup\backup\code stuff\linearhistogram_ffmpeg\include\libavutil\file.h
+	<stdint.h>
+	"avutil.h"
+
+1408208355 d:\d_backup\backup\code stuff\linearhistogram_ffmpeg\include\histogram.hpp
+	<string>
+	"histslice.hpp"
+
+1435432470 d:\d_backup\backup\code stuff\linearhistogram_ffmpeg\include\histslice.hpp
+
+1435432165 source:d:\d_backup\backup\code stuff\linearhistogram_ffmpeg\src\histslice.cpp
+	"histslice.hpp"
+	<math.h>
+	<iostream>
+
+1408060587 source:d:\linearhistogram_ffmpeg\main.cpp
+	<fstream>
+	<iostream>
+	"histogram.hpp"
+	"ffwrapper.hpp"
+	"pbm_io.h"
+	<stdlib.h>
+
+1406874760 /file.h>
+
+1408060030 d:\linearhistogram_ffmpeg\include\histogram.hpp
+	"histslice.hpp"
+
+1408056181 d:\linearhistogram_ffmpeg\include\histslice.hpp
+
+1408061200 source:d:\linearhistogram_ffmpeg\src\histogram.cpp
+	"histogram.hpp"
+	<string>
+	<iostream>
+	<cmath>
+	"memory.h"
+
+1408061193 source:d:\linearhistogram_ffmpeg\src\histslice.cpp
+	"histslice.hpp"
+	<math.h>
+	<iostream>
+
+1406858941 d:\linearhistogram_ffmpeg\include\libavcodec\avcodec.h
+	<errno.h>
+	"libavutil/samplefmt.h"
+	"libavutil/attributes.h"
+	"libavutil/avutil.h"
+	"libavutil/buffer.h"
+	"libavutil/cpu.h"
+	"libavutil/channel_layout.h"
+	"libavutil/dict.h"
+	"libavutil/frame.h"
+	"libavutil/log.h"
+	"libavutil/pixfmt.h"
+	"libavutil/rational.h"
+	"version.h"
+	"libavutil/mem.h"
+	"old_codec_ids.h"
+
+1406858941 d:\linearhistogram_ffmpeg\include\libavutil\samplefmt.h
+	<stdint.h>
+	"avutil.h"
+	"attributes.h"
+
+1406858941 d:\linearhistogram_ffmpeg\include\libavutil\avutil.h
+	"common.h"
+	"error.h"
+	"rational.h"
+	"version.h"
+	"macros.h"
+	"mathematics.h"
+	"log.h"
+	"pixfmt.h"
+
+1406858941 d:\linearhistogram_ffmpeg\include\libavutil\common.h
+	<errno.h>
+	<inttypes.h>
+	<limits.h>
+	<math.h>
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"attributes.h"
+	"version.h"
+	"libavutil/avconfig.h"
+	"config.h"
+	"intmath.h"
+	"common.h"
+	"mem.h"
+	"internal.h"
+
+1406858941 d:\linearhistogram_ffmpeg\include\libavutil\attributes.h
+
+1406858941 d:\linearhistogram_ffmpeg\include\libavutil\version.h
+	"macros.h"
+
+1406858941 d:\linearhistogram_ffmpeg\include\libavutil\macros.h
+
+1406858941 d:\linearhistogram_ffmpeg\include\libavutil\avconfig.h
+
+1406858941 d:\linearhistogram_ffmpeg\include\libavutil\mem.h
+	<limits.h>
+	<stdint.h>
+	"attributes.h"
+	"error.h"
+	"avutil.h"
+
+1406858941 d:\linearhistogram_ffmpeg\include\libavutil\error.h
+	<errno.h>
+	<stddef.h>
+
+1406858941 d:\linearhistogram_ffmpeg\include\libavutil\rational.h
+	<stdint.h>
+	<limits.h>
+	"attributes.h"
+
+1406858941 d:\linearhistogram_ffmpeg\include\libavutil\mathematics.h
+	<stdint.h>
+	<math.h>
+	"attributes.h"
+	"rational.h"
+	"intfloat.h"
+
+1406858941 d:\linearhistogram_ffmpeg\include\libavutil\intfloat.h
+	<stdint.h>
+	"attributes.h"
+
+1406858941 d:\linearhistogram_ffmpeg\include\libavutil\log.h
+	<stdarg.h>
+	"avutil.h"
+	"attributes.h"
+
+1406858941 d:\linearhistogram_ffmpeg\include\libavutil\pixfmt.h
+	"libavutil/avconfig.h"
+	"version.h"
+	"old_pix_fmts.h"
+
+1406858941 d:\linearhistogram_ffmpeg\include\libavutil\old_pix_fmts.h
+
+1406858941 d:\linearhistogram_ffmpeg\include\libavutil\buffer.h
+	<stdint.h>
+
+1406858941 d:\linearhistogram_ffmpeg\include\libavutil\cpu.h
+	"attributes.h"
+
+1406858941 d:\linearhistogram_ffmpeg\include\libavutil\channel_layout.h
+	<stdint.h>
+
+1406858941 d:\linearhistogram_ffmpeg\include\libavutil\dict.h
+	"version.h"
+
+1406858941 d:\linearhistogram_ffmpeg\include\libavutil\frame.h
+	<stdint.h>
+	"avutil.h"
+	"buffer.h"
+	"dict.h"
+	"rational.h"
+	"samplefmt.h"
+	"pixfmt.h"
+	"version.h"
+
+1406858941 d:\linearhistogram_ffmpeg\include\libavcodec\version.h
+	"libavutil/version.h"
+
+1406858941 d:\linearhistogram_ffmpeg\include\libavcodec\old_codec_ids.h
+
+1406858941 d:\linearhistogram_ffmpeg\include\libavformat\avformat.h
+	<time.h>
+	<stdio.h>
+	"libavcodec/avcodec.h"
+	"libavutil/dict.h"
+	"libavutil/log.h"
+	"avio.h"
+	"libavformat/version.h"
+
+1406858941 d:\linearhistogram_ffmpeg\include\libavformat\avio.h
+	<stdint.h>
+	"libavutil/common.h"
+	"libavutil/dict.h"
+	"libavutil/log.h"
+	"libavformat/version.h"
+
+1406858941 d:\linearhistogram_ffmpeg\include\libavformat\version.h
+	"libavutil/version.h"
+
+1406858941 d:\linearhistogram_ffmpeg\include\libavutil\file.h
+	<stdint.h>
+	"avutil.h"
+
+1407305990 source:h:\linearhistogram_ffmpeg\main.cpp
+	<strstream>
+	<iostream>
+	"histogram.hpp"
+	<libavcodec/avcodec.h>
+	<libavformat/avformat.h>
+	<libavformat/avio.h>
+	<libavutil/file.h>
+
+1406910479 h:\linearhistogram_ffmpeg\include\histogram.hpp
+	"histslice.hpp"
+
+1406836706 h:\linearhistogram_ffmpeg\include\histslice.hpp
+
+1406858941 h:\linearhistogram_ffmpeg\include\libavcodec\avcodec.h
+	<errno.h>
+	"libavutil/samplefmt.h"
+	"libavutil/attributes.h"
+	"libavutil/avutil.h"
+	"libavutil/buffer.h"
+	"libavutil/cpu.h"
+	"libavutil/channel_layout.h"
+	"libavutil/dict.h"
+	"libavutil/frame.h"
+	"libavutil/log.h"
+	"libavutil/pixfmt.h"
+	"libavutil/rational.h"
+	"version.h"
+	"libavutil/mem.h"
+	"old_codec_ids.h"
+
+1406858941 h:\linearhistogram_ffmpeg\include\libavutil\samplefmt.h
+	<stdint.h>
+	"avutil.h"
+	"attributes.h"
+
+1406858941 h:\linearhistogram_ffmpeg\include\libavutil\avutil.h
+	"common.h"
+	"error.h"
+	"rational.h"
+	"version.h"
+	"macros.h"
+	"mathematics.h"
+	"log.h"
+	"pixfmt.h"
+
+1406858941 h:\linearhistogram_ffmpeg\include\libavutil\common.h
+	<errno.h>
+	<inttypes.h>
+	<limits.h>
+	<math.h>
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"attributes.h"
+	"version.h"
+	"libavutil/avconfig.h"
+	"config.h"
+	"intmath.h"
+	"common.h"
+	"mem.h"
+	"internal.h"
+
+1406858941 h:\linearhistogram_ffmpeg\include\libavutil\attributes.h
+
+1406858941 h:\linearhistogram_ffmpeg\include\libavutil\version.h
+	"macros.h"
+
+1406858941 h:\linearhistogram_ffmpeg\include\libavutil\macros.h
+
+1406858941 h:\linearhistogram_ffmpeg\include\libavutil\avconfig.h
+
+1406858941 h:\linearhistogram_ffmpeg\include\libavutil\mem.h
+	<limits.h>
+	<stdint.h>
+	"attributes.h"
+	"error.h"
+	"avutil.h"
+
+1406858941 h:\linearhistogram_ffmpeg\include\libavutil\error.h
+	<errno.h>
+	<stddef.h>
+
+1406858941 h:\linearhistogram_ffmpeg\include\libavutil\rational.h
+	<stdint.h>
+	<limits.h>
+	"attributes.h"
+
+1406858941 h:\linearhistogram_ffmpeg\include\libavutil\mathematics.h
+	<stdint.h>
+	<math.h>
+	"attributes.h"
+	"rational.h"
+	"intfloat.h"
+
+1406858941 h:\linearhistogram_ffmpeg\include\libavutil\intfloat.h
+	<stdint.h>
+	"attributes.h"
+
+1406858941 h:\linearhistogram_ffmpeg\include\libavutil\log.h
+	<stdarg.h>
+	"avutil.h"
+	"attributes.h"
+
+1406858941 h:\linearhistogram_ffmpeg\include\libavutil\pixfmt.h
+	"libavutil/avconfig.h"
+	"version.h"
+	"old_pix_fmts.h"
+
+1406858941 h:\linearhistogram_ffmpeg\include\libavutil\old_pix_fmts.h
+
+1406858941 h:\linearhistogram_ffmpeg\include\libavutil\buffer.h
+	<stdint.h>
+
+1406858941 h:\linearhistogram_ffmpeg\include\libavutil\cpu.h
+	"attributes.h"
+
+1406858941 h:\linearhistogram_ffmpeg\include\libavutil\channel_layout.h
+	<stdint.h>
+
+1406858941 h:\linearhistogram_ffmpeg\include\libavutil\dict.h
+	"version.h"
+
+1406858941 h:\linearhistogram_ffmpeg\include\libavutil\frame.h
+	<stdint.h>
+	"avutil.h"
+	"buffer.h"
+	"dict.h"
+	"rational.h"
+	"samplefmt.h"
+	"pixfmt.h"
+	"version.h"
+
+1406858941 h:\linearhistogram_ffmpeg\include\libavcodec\version.h
+	"libavutil/version.h"
+
+1406858941 h:\linearhistogram_ffmpeg\include\libavcodec\old_codec_ids.h
+
+1406858941 h:\linearhistogram_ffmpeg\include\libavformat\avformat.h
+	<time.h>
+	<stdio.h>
+	"libavcodec/avcodec.h"
+	"libavutil/dict.h"
+	"libavutil/log.h"
+	"avio.h"
+	"libavformat/version.h"
+
+1406858941 h:\linearhistogram_ffmpeg\include\libavformat\avio.h
+	<stdint.h>
+	"libavutil/common.h"
+	"libavutil/dict.h"
+	"libavutil/log.h"
+	"libavformat/version.h"
+
+1406858941 h:\linearhistogram_ffmpeg\include\libavformat\version.h
+	"libavutil/version.h"
+
+1406858941 h:\linearhistogram_ffmpeg\include\libavutil\file.h
+	<stdint.h>
+	"avutil.h"
+
+1406910510 source:h:\linearhistogram_ffmpeg\src\histogram.cpp
+	"histogram.hpp"
+
+1406836820 source:h:\linearhistogram_ffmpeg\src\histslice.cpp
+	"histslice.hpp"
+	<math.h>
+
+1407282510 source:d:\linearhistogram_ffmpeg\src\dump.c
+	<stdio.h>
+	<stdint.h>
+	"libavutil/channel_layout.h"
+	"libavutil/display.h"
+	"libavutil/intreadwrite.h"
+	"libavutil/log.h"
+	"libavutil/mathematics.h"
+	"libavutil/avstring.h"
+	"libavutil/replaygain.h"
+	"libavformat/avformat.h"
+
+1407282510 at/avformat.h"
+
+1406858941 d:\linearhistogram_ffmpeg\include\libavutil\display.h
+	<stdint.h>
+
+1406858941 d:\linearhistogram_ffmpeg\include\libavutil\intreadwrite.h
+	<stdint.h>
+	"libavutil/avconfig.h"
+	"attributes.h"
+	"bswap.h"
+	"config.h"
+	"arm/intreadwrite.h"
+	"avr32/intreadwrite.h"
+	"mips/intreadwrite.h"
+	"ppc/intreadwrite.h"
+	"tomi/intreadwrite.h"
+	"x86/intreadwrite.h"
+
+1406858941 adwrite.h"
+
+1406858941 d:\linearhistogram_ffmpeg\include\libavutil\bswap.h
+	<stdint.h>
+	"libavutil/avconfig.h"
+	"attributes.h"
+	"config.h"
+	"aarch64/bswap.h"
+	"arm/bswap.h"
+	"avr32/bswap.h"
+	"bfin/bswap.h"
+	"sh4/bswap.h"
+	"x86/bswap.h"
+
+1406858941 .h"
+
+1406858941 d:\linearhistogram_ffmpeg\include\libavutil\avstring.h
+	<stddef.h>
+	<stdint.h>
+	"attributes.h"
+
+1406858941 d:\linearhistogram_ffmpeg\include\libavutil\replaygain.h
+	<stdint.h>
+
+1407282510 source:/media/ren/DE9C149A9C146F71/LinearHistogram_ffmpeg/src/dump.c
+	<stdio.h>
+	<stdint.h>
+	"libavutil/channel_layout.h"
+	"libavutil/display.h"
+	"libavutil/intreadwrite.h"
+	"libavutil/log.h"
+	"libavutil/mathematics.h"
+	"libavutil/avstring.h"
+	"libavutil/replaygain.h"
+	"libavformat/avformat.h"
+
+1406858941 /media/ren/DE9C149A9C146F71/LinearHistogram_ffmpeg/include/libavutil/channel_layout.h
+	<stdint.h>
+
+1406858941 /media/ren/DE9C149A9C146F71/LinearHistogram_ffmpeg/include/libavutil/display.h
+	<stdint.h>
+
+1406858941 /media/ren/DE9C149A9C146F71/LinearHistogram_ffmpeg/include/libavutil/intreadwrite.h
+	<stdint.h>
+	"libavutil/avconfig.h"
+	"attributes.h"
+	"bswap.h"
+	"config.h"
+	"arm/intreadwrite.h"
+	"avr32/intreadwrite.h"
+	"mips/intreadwrite.h"
+	"ppc/intreadwrite.h"
+	"tomi/intreadwrite.h"
+	"x86/intreadwrite.h"
+
+1406858941 /media/ren/DE9C149A9C146F71/LinearHistogram_ffmpeg/include/libavutil/avconfig.h
+
+1406858941 /media/ren/DE9C149A9C146F71/LinearHistogram_ffmpeg/include/libavutil/attributes.h
+
+1406858941 /media/ren/DE9C149A9C146F71/LinearHistogram_ffmpeg/include/libavutil/bswap.h
+	<stdint.h>
+	"libavutil/avconfig.h"
+	"attributes.h"
+	"config.h"
+	"aarch64/bswap.h"
+	"arm/bswap.h"
+	"avr32/bswap.h"
+	"bfin/bswap.h"
+	"sh4/bswap.h"
+	"x86/bswap.h"
+
+1406858941 /media/ren/DE9C149A9C146F71/LinearHistogram_ffmpeg/include/libavutil/log.h
+	<stdarg.h>
+	"avutil.h"
+	"attributes.h"
+
+1406858941 /media/ren/DE9C149A9C146F71/LinearHistogram_ffmpeg/include/libavutil/avutil.h
+	"common.h"
+	"error.h"
+	"rational.h"
+	"version.h"
+	"macros.h"
+	"mathematics.h"
+	"log.h"
+	"pixfmt.h"
+
+1406858941 /media/ren/DE9C149A9C146F71/LinearHistogram_ffmpeg/include/libavutil/common.h
+	<errno.h>
+	<inttypes.h>
+	<limits.h>
+	<math.h>
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"attributes.h"
+	"version.h"
+	"libavutil/avconfig.h"
+	"config.h"
+	"intmath.h"
+	"common.h"
+	"mem.h"
+	"internal.h"
+
+1406858941 /media/ren/DE9C149A9C146F71/LinearHistogram_ffmpeg/include/libavutil/version.h
+	"macros.h"
+
+1406858941 /media/ren/DE9C149A9C146F71/LinearHistogram_ffmpeg/include/libavutil/macros.h
+
+1406858941 /media/ren/DE9C149A9C146F71/LinearHistogram_ffmpeg/include/libavutil/mem.h
+	<limits.h>
+	<stdint.h>
+	"attributes.h"
+	"error.h"
+	"avutil.h"
+
+1406858941 /media/ren/DE9C149A9C146F71/LinearHistogram_ffmpeg/include/libavutil/error.h
+	<errno.h>
+	<stddef.h>
+
+1406858941 /media/ren/DE9C149A9C146F71/LinearHistogram_ffmpeg/include/libavutil/rational.h
+	<stdint.h>
+	<limits.h>
+	"attributes.h"
+
+1406858941 /media/ren/DE9C149A9C146F71/LinearHistogram_ffmpeg/include/libavutil/mathematics.h
+	<stdint.h>
+	<math.h>
+	"attributes.h"
+	"rational.h"
+	"intfloat.h"
+
+1406858941 /media/ren/DE9C149A9C146F71/LinearHistogram_ffmpeg/include/libavutil/intfloat.h
+	<stdint.h>
+	"attributes.h"
+
+1406858941 /media/ren/DE9C149A9C146F71/LinearHistogram_ffmpeg/include/libavutil/pixfmt.h
+	"libavutil/avconfig.h"
+	"version.h"
+	"old_pix_fmts.h"
+
+1406858941 /media/ren/DE9C149A9C146F71/LinearHistogram_ffmpeg/include/libavutil/old_pix_fmts.h
+
+1406858941 /media/ren/DE9C149A9C146F71/LinearHistogram_ffmpeg/include/libavutil/avstring.h
+	<stddef.h>
+	<stdint.h>
+	"attributes.h"
+
+1406858941 /media/ren/DE9C149A9C146F71/LinearHistogram_ffmpeg/include/libavutil/replaygain.h
+	<stdint.h>
+
+1406858941 /media/ren/DE9C149A9C146F71/LinearHistogram_ffmpeg/include/libavformat/avformat.h
+	<time.h>
+	<stdio.h>
+	"libavcodec/avcodec.h"
+	"libavutil/dict.h"
+	"libavutil/log.h"
+	"avio.h"
+	"libavformat/version.h"
+
+1406858941 /media/ren/DE9C149A9C146F71/LinearHistogram_ffmpeg/include/libavcodec/avcodec.h
+	<errno.h>
+	"libavutil/samplefmt.h"
+	"libavutil/attributes.h"
+	"libavutil/avutil.h"
+	"libavutil/buffer.h"
+	"libavutil/cpu.h"
+	"libavutil/channel_layout.h"
+	"libavutil/dict.h"
+	"libavutil/frame.h"
+	"libavutil/log.h"
+	"libavutil/pixfmt.h"
+	"libavutil/rational.h"
+	"version.h"
+	"libavutil/mem.h"
+	"old_codec_ids.h"
+
+1406858941 /media/ren/DE9C149A9C146F71/LinearHistogram_ffmpeg/include/libavutil/samplefmt.h
+	<stdint.h>
+	"avutil.h"
+	"attributes.h"
+
+1406858941 /media/ren/DE9C149A9C146F71/LinearHistogram_ffmpeg/include/libavutil/buffer.h
+	<stdint.h>
+
+1406858941 /media/ren/DE9C149A9C146F71/LinearHistogram_ffmpeg/include/libavutil/cpu.h
+	"attributes.h"
+
+1406858941 /media/ren/DE9C149A9C146F71/LinearHistogram_ffmpeg/include/libavutil/dict.h
+	"version.h"
+
+1406858941 /media/ren/DE9C149A9C146F71/LinearHistogram_ffmpeg/include/libavutil/frame.h
+	<stdint.h>
+	"avutil.h"
+	"buffer.h"
+	"dict.h"
+	"rational.h"
+	"samplefmt.h"
+	"pixfmt.h"
+	"version.h"
+
+1406858941 /media/ren/DE9C149A9C146F71/LinearHistogram_ffmpeg/include/libavcodec/version.h
+	"libavutil/version.h"
+
+1406858941 /media/ren/DE9C149A9C146F71/LinearHistogram_ffmpeg/include/libavcodec/old_codec_ids.h
+
+1406858941 /media/ren/DE9C149A9C146F71/LinearHistogram_ffmpeg/include/libavformat/avio.h
+	<stdint.h>
+	"libavutil/common.h"
+	"libavutil/dict.h"
+	"libavutil/log.h"
+	"libavformat/version.h"
+
+1406858941 /media/ren/DE9C149A9C146F71/LinearHistogram_ffmpeg/include/libavformat/version.h
+	"libavutil/version.h"
+
+1406910510 source:/media/ren/DE9C149A9C146F71/LinearHistogram_ffmpeg/src/histogram.cpp
+	"histogram.hpp"
+
+1406910479 /media/ren/DE9C149A9C146F71/LinearHistogram_ffmpeg/include/histogram.hpp
+	"histslice.hpp"
+
+1406836706 /media/ren/DE9C149A9C146F71/LinearHistogram_ffmpeg/include/histslice.hpp
+
+1406836820 source:/media/ren/DE9C149A9C146F71/LinearHistogram_ffmpeg/src/histslice.cpp
+	"histslice.hpp"
+	<math.h>
+
+1407282510 source:h:\linearhistogram_ffmpeg\src\dump.c
+	<stdio.h>
+	<stdint.h>
+	"libavutil/channel_layout.h"
+	"libavutil/display.h"
+	"libavutil/intreadwrite.h"
+	"libavutil/log.h"
+	"libavutil/mathematics.h"
+	"libavutil/avstring.h"
+	"libavutil/replaygain.h"
+	"libavformat/avformat.h"
+
+1406858941 h:\linearhistogram_ffmpeg\include\libavutil\display.h
+	<stdint.h>
+
+1406858941 h:\linearhistogram_ffmpeg\include\libavutil\intreadwrite.h
+	<stdint.h>
+	"libavutil/avconfig.h"
+	"attributes.h"
+	"bswap.h"
+	"config.h"
+	"arm/intreadwrite.h"
+	"avr32/intreadwrite.h"
+	"mips/intreadwrite.h"
+	"ppc/intreadwrite.h"
+	"tomi/intreadwrite.h"
+	"x86/intreadwrite.h"
+
+1406858941 h:\linearhistogram_ffmpeg\include\libavutil\bswap.h
+	<stdint.h>
+	"libavutil/avconfig.h"
+	"attributes.h"
+	"config.h"
+	"aarch64/bswap.h"
+	"arm/bswap.h"
+	"avr32/bswap.h"
+	"bfin/bswap.h"
+	"sh4/bswap.h"
+	"x86/bswap.h"
+
+1406858941 h:\linearhistogram_ffmpeg\include\libavutil\avstring.h
+	<stddef.h>
+	<stdint.h>
+	"attributes.h"
+
+1406858941 h:\linearhistogram_ffmpeg\include\libavutil\replaygain.h
+	<stdint.h>
+
+1407539611 source:d:\linearhistogram_ffmpeg\src\ffwrapper.cpp
+	"ffwrapper.hpp"
+
+1407538209 d:\linearhistogram_ffmpeg\include\ffwrapper.hpp
+	<iostream>
+	"histogram.hpp"
+	<libavcodec/avcodec.h>
+	<libavformat/avformat.h>
+	<libavformat/avio.h>
+	<libswscale/swscale.h>
+	<libavutil/pixdesc.h>
+	<libavutil/file.h>
+	<libavutil/opt.h>
+
+1406858941 d:\linearhistogram_ffmpeg\include\libswscale\swscale.h
+	<stdint.h>
+	"libavutil/avutil.h"
+	"libavutil/log.h"
+	"libavutil/pixfmt.h"
+	"version.h"
+
+1406858941 d:\linearhistogram_ffmpeg\include\libswscale\version.h
+	"libavutil/version.h"
+
+1406858941 d:\linearhistogram_ffmpeg\include\libavutil\pixdesc.h
+	<inttypes.h>
+	"attributes.h"
+	"pixfmt.h"
+
+1406858941 d:\linearhistogram_ffmpeg\include\libavutil\opt.h
+	"rational.h"
+	"avutil.h"
+	"dict.h"
+	"log.h"
+	"pixfmt.h"
+	"samplefmt.h"
+
+1407779335 d:\linearhistogram_ffmpeg\include\pbm_io.h
+	<string>
+
+1407901100 source:d:\linearhistogram_ffmpeg\pbm_io.cpp
+	<fstream>
+	<iomanip>
+	"pbm_io.h"
+	"memory.h"
+
+1408062291 d:\d_backup\backup\code stuff\linearhistogram_ffmpeg\include\ffwrapper.hpp
+	<iostream>
+	"histogram.hpp"
+	<libavcodec/avcodec.h>
+	<libavformat/avformat.h>
+	<libavformat/avio.h>
+	<libswscale/swscale.h>
+	<libavutil/pixdesc.h>
+	<libavutil/file.h>
+	<libavutil/opt.h>
+
+1406858941 d:\d_backup\backup\code stuff\linearhistogram_ffmpeg\include\libswscale\swscale.h
+	<stdint.h>
+	"libavutil/avutil.h"
+	"libavutil/log.h"
+	"libavutil/pixfmt.h"
+	"version.h"
+
+1406858941 d:\d_backup\backup\code stuff\linearhistogram_ffmpeg\include\libswscale\version.h
+	"libavutil/version.h"
+
+1406858941 d:\d_backup\backup\code stuff\linearhistogram_ffmpeg\include\libavutil\pixdesc.h
+	<inttypes.h>
+	"attributes.h"
+	"pixfmt.h"
+
+1406858941 d:\d_backup\backup\code stuff\linearhistogram_ffmpeg\include\libavutil\opt.h
+	"rational.h"
+	"avutil.h"
+	"dict.h"
+	"log.h"
+	"pixfmt.h"
+	"samplefmt.h"
+
+1408207860 d:\d_backup\backup\code stuff\linearhistogram_ffmpeg\include\pbm_io.h
+	<string>
+
+1408210099 source:d:\d_backup\backup\code stuff\linearhistogram_ffmpeg\pbm_io.cpp
+	<fstream>
+	<iomanip>
+	"pbm_io.h"
+	"memory.h"
+
+1407282510 source:d:\d_backup\backup\code stuff\linearhistogram_ffmpeg\src\dump.c
+	<stdio.h>
+	<stdint.h>
+	"libavutil/channel_layout.h"
+	"libavutil/display.h"
+	"libavutil/intreadwrite.h"
+	"libavutil/log.h"
+	"libavutil/mathematics.h"
+	"libavutil/avstring.h"
+	"libavutil/replaygain.h"
+	"libavformat/avformat.h"
+
+1406858941 d:\d_backup\backup\code stuff\linearhistogram_ffmpeg\include\libavutil\display.h
+	<stdint.h>
+
+1406858941 d:\d_backup\backup\code stuff\linearhistogram_ffmpeg\include\libavutil\intreadwrite.h
+	<stdint.h>
+	"libavutil/avconfig.h"
+	"attributes.h"
+	"bswap.h"
+	"config.h"
+	"arm/intreadwrite.h"
+	"avr32/intreadwrite.h"
+	"mips/intreadwrite.h"
+	"ppc/intreadwrite.h"
+	"tomi/intreadwrite.h"
+	"x86/intreadwrite.h"
+
+1406858941 d:\d_backup\backup\code stuff\linearhistogram_ffmpeg\include\libavutil\bswap.h
+	<stdint.h>
+	"libavutil/avconfig.h"
+	"attributes.h"
+	"config.h"
+	"aarch64/bswap.h"
+	"arm/bswap.h"
+	"avr32/bswap.h"
+	"bfin/bswap.h"
+	"sh4/bswap.h"
+	"x86/bswap.h"
+
+1406858941 d:\d_backup\backup\code stuff\linearhistogram_ffmpeg\include\libavutil\avstring.h
+	<stddef.h>
+	<stdint.h>
+	"attributes.h"
+
+1406858941 d:\d_backup\backup\code stuff\linearhistogram_ffmpeg\include\libavutil\replaygain.h
+	<stdint.h>
+
+1408078737 source:d:\d_backup\backup\code stuff\linearhistogram_ffmpeg\src\ffwrapper.cpp
+	"ffwrapper.hpp"
+

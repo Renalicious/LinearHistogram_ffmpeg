@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="LinearHistogram_ffmpeg" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/LinearHistogram_ffmpeg" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="D:\Videos\unreal_4918.avi" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/LinearHistogram_ffmpeg" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-march=core2" />
+					<Add option="-O2" />
+					<Add option="-std=c++11" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="include" />
+		</Compiler>
+		<Linker>
+			<Add library="libavcodec" />
+			<Add library="libavformat" />
+			<Add library="libavutil" />
+			<Add library="libswscale" />
+			<Add library="libavdevice" />
+			<Add library="libavfilter" />
+			<Add library="libpostproc" />
+			<Add library="libswresample" />
+			<Add directory="lib" />
+		</Linker>
+		<Unit filename="include/argparse.hpp" />
+		<Unit filename="include/ffwrapper.hpp" />
+		<Unit filename="include/histogram.hpp" />
+		<Unit filename="include/histslice.hpp" />
+		<Unit filename="include/libavcodec/avcodec.h" />
+		<Unit filename="include/libavcodec/avfft.h" />
+		<Unit filename="include/libavcodec/dv_profile.h" />
+		<Unit filename="include/libavcodec/dxva2.h" />
+		<Unit filename="include/libavcodec/old_codec_ids.h" />
+		<Unit filename="include/libavcodec/vaapi.h" />
+		<Unit filename="include/libavcodec/vda.h" />
+		<Unit filename="include/libavcodec/vdpau.h" />
+		<Unit filename="include/libavcodec/version.h" />
+		<Unit filename="include/libavcodec/xvmc.h" />
+		<Unit filename="include/libavdevice/avdevice.h" />
+		<Unit filename="include/libavdevice/version.h" />
+		<Unit filename="include/libavfilter/asrc_abuffer.h" />
+		<Unit filename="include/libavfilter/avcodec.h" />
+		<Unit filename="include/libavfilter/avfilter.h" />
+		<Unit filename="include/libavfilter/avfiltergraph.h" />
+		<Unit filename="include/libavfilter/buffersink.h" />
+		<Unit filename="include/libavfilter/buffersrc.h" />
+		<Unit filename="include/libavfilter/version.h" />
+		<Unit filename="include/libavformat/avformat.h" />
+		<Unit filename="include/libavformat/avio.h" />
+		<Unit filename="include/libavformat/version.h" />
+		<Unit filename="include/libavutil/adler32.h" />
+		<Unit filename="include/libavutil/aes.h" />
+		<Unit filename="include/libavutil/attributes.h" />
+		<Unit filename="include/libavutil/audio_fifo.h" />
+		<Unit filename="include/libavutil/audioconvert.h" />
+		<Unit filename="include/libavutil/avassert.h" />
+		<Unit filename="include/libavutil/avconfig.h" />
+		<Unit filename="include/libavutil/avstring.h" />
+		<Unit filename="include/libavutil/avutil.h" />
+		<Unit filename="include/libavutil/base64.h" />
+		<Unit filename="include/libavutil/blowfish.h" />
+		<Unit filename="include/libavutil/bprint.h" />
+		<Unit filename="include/libavutil/bswap.h" />
+		<Unit filename="include/libavutil/buffer.h" />
+		<Unit filename="include/libavutil/channel_layout.h" />
+		<Unit filename="include/libavutil/common.h" />
+		<Unit filename="include/libavutil/cpu.h" />
+		<Unit filename="include/libavutil/crc.h" />
+		<Unit filename="include/libavutil/dict.h" />
+		<Unit filename="include/libavutil/display.h" />
+		<Unit filename="include/libavutil/downmix_info.h" />
+		<Unit filename="include/libavutil/error.h" />
+		<Unit filename="include/libavutil/eval.h" />
+		<Unit filename="include/libavutil/ffversion.h" />
+		<Unit filename="include/libavutil/fifo.h" />
+		<Unit filename="include/libavutil/file.h" />
+		<Unit filename="include/libavutil/frame.h" />
+		<Unit filename="include/libavutil/hash.h" />
+		<Unit filename="include/libavutil/hmac.h" />
+		<Unit filename="include/libavutil/imgutils.h" />
+		<Unit filename="include/libavutil/intfloat.h" />
+		<Unit filename="include/libavutil/intfloat_readwrite.h" />
+		<Unit filename="include/libavutil/intreadwrite.h" />
+		<Unit filename="include/libavutil/lfg.h" />
+		<Unit filename="include/libavutil/log.h" />
+		<Unit filename="include/libavutil/lzo.h" />
+		<Unit filename="include/libavutil/macros.h" />
+		<Unit filename="include/libavutil/mathematics.h" />
+		<Unit filename="include/libavutil/md5.h" />
+		<Unit filename="include/libavutil/mem.h" />
+		<Unit filename="include/libavutil/murmur3.h" />
+		<Unit filename="include/libavutil/old_pix_fmts.h" />
+		<Unit filename="include/libavutil/opt.h" />
+		<Unit filename="include/libavutil/parseutils.h" />
+		<Unit filename="include/libavutil/pixdesc.h" />
+		<Unit filename="include/libavutil/pixfmt.h" />
+		<Unit filename="include/libavutil/random_seed.h" />
+		<Unit filename="include/libavutil/rational.h" />
+		<Unit filename="include/libavutil/replaygain.h" />
+		<Unit filename="include/libavutil/ripemd.h" />
+		<Unit filename="include/libavutil/samplefmt.h" />
+		<Unit filename="include/libavutil/sha.h" />
+		<Unit filename="include/libavutil/sha512.h" />
+		<Unit filename="include/libavutil/stereo3d.h" />
+		<Unit filename="include/libavutil/threadmessage.h" />
+		<Unit filename="include/libavutil/time.h" />
+		<Unit filename="include/libavutil/timecode.h" />
+		<Unit filename="include/libavutil/timestamp.h" />
+		<Unit filename="include/libavutil/version.h" />
+		<Unit filename="include/libavutil/xtea.h" />
+		<Unit filename="include/libpostproc/postprocess.h" />
+		<Unit filename="include/libpostproc/version.h" />
+		<Unit filename="include/libswresample/swresample.h" />
+		<Unit filename="include/libswresample/version.h" />
+		<Unit filename="include/libswscale/swscale.h" />
+		<Unit filename="include/libswscale/version.h" />
+		<Unit filename="include/pbm_io.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="pbm_io.cpp" />
+		<Unit filename="src/dump.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/ffwrapper.cpp" />
+		<Unit filename="src/histogram.cpp" />
+		<Unit filename="src/histslice.cpp" />
+		<Extensions>
+			<code_completion>
+				<search_path add="lib" />
+			</code_completion>
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
